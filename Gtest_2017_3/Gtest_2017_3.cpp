@@ -41,7 +41,7 @@ TEST(subtract, subtractFunctest)
 
 int main(int argc, char* argv[])
 {
-	testing::GTEST_FLAG(output) = "xml:"; //若要生成xml结果文件
+	testing::GTEST_FLAG(output) = "xml:../report/report.xml"; //若要生成xml结果文件
 	testing::InitGoogleTest(&argc, argv);
 	return RUN_ALL_TESTS();
 
