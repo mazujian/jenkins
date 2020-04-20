@@ -4,7 +4,16 @@
 
 
 
-#include "gtest\gtest.h"
+//#include "gtest\gtest.h"
+#include "E:\download\gtestFile\include\gtest\gtest.h"
+
+
+
+
+
+
+#define HELL 100;
+
 int Add(int a, int b)
 {
 	return a + b;
