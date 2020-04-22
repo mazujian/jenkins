@@ -5,6 +5,22 @@
 
 
 #include <gtest\gtest.h>
+
+
+/*this is a test
+
+
+
+
+
+
+
+
+
+
+
+*/
+
 int Add(int a, int b)
 {
 	return a + b;
