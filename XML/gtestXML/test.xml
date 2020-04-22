@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites tests="211" failures="0" disabled="0" errors="99" time="211" name="">
+	<testsuite name="_03_strtrml_1Test" tests="8" failures="" disabled="" errors="6" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_strtrml_1Test" />
+		<testcase name="case 2" status="run" time="" classname="_03_strtrml_1Test">
+			<failure message="case 1: return expected &quot;abcde&quot; but &quot;bcde&quot;" type="error">&lt;!case 1: return expected "abcde" but "bcde"&gt;</failure>
+			<failure message="case 1: str expected &quot;abcde&quot; but &quot;    abcde&quot;" type="error">&lt;!case 1: str expected "abcde" but "    abcde"&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_03_strtrml_1Test">
+			<failure message="case 2: return expected &quot;abcde&quot; but &quot;bcde&quot;" type="error">&lt;!case 2: return expected "abcde" but "bcde"&gt;</failure>
+		</testcase>
+		<testcase name="case 4" status="run" time="" classname="_03_strtrml_1Test">
+			<failure message="case 3: return expected &quot;abcde   &quot; but &quot;bcde   &quot;" type="error">&lt;!case 3: return expected "abcde   " but "bcde   "&gt;</failure>
+		</testcase>
+		<testcase name="case 5" status="run" time="" classname="_03_strtrml_1Test" />
+	</testsuite>
+	<testsuite name="_03_strtrmlTest" tests="8" failures="" disabled="" errors="4" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_strtrmlTest" />
+		<testcase name="case 2" status="run" time="" classname="_03_strtrmlTest">
+			<failure message="case 1: return expected &quot;abcde&quot; but &quot;    abcde&quot;" type="error">&lt;!case 1: return expected "abcde" but "    abcde"&gt;</failure>
+			<failure message="case 1: str expected &quot;abcde&quot; but &quot;    abcde&quot;" type="error">&lt;!case 1: str expected "abcde" but "    abcde"&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_03_strtrmlTest" />
+		<testcase name="case 4" status="run" time="" classname="_03_strtrmlTest" />
+		<testcase name="case 5" status="run" time="" classname="_03_strtrmlTest" />
+	</testsuite>
+	<testsuite name="_03_strtrml_2Test" tests="8" failures="" disabled="" errors="6" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_strtrml_2Test" />
+		<testcase name="case 2" status="run" time="" classname="_03_strtrml_2Test">
+			<failure message="case 1: return expected &quot;abcde&quot; but &quot;&quot;" type="error">&lt;!case 1: return expected "abcde" but ""&gt;</failure>
+			<failure message="case 1: str expected &quot;abcde&quot; but &quot;    a&quot;" type="error">&lt;!case 1: str expected "abcde" but "    a"&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_03_strtrml_2Test">
+			<failure message="case 2: return expected &quot;abcde&quot; but &quot;&quot;" type="error">&lt;!case 2: return expected "abcde" but ""&gt;</failure>
+		</testcase>
+		<testcase name="case 4" status="run" time="" classname="_03_strtrml_2Test">
+			<failure message="case 3: return expected &quot;abcde   &quot; but &quot;&quot;" type="error">&lt;!case 3: return expected "abcde   " but ""&gt;</failure>
+		</testcase>
+		<testcase name="case 5" status="run" time="" classname="_03_strtrml_2Test" />
+	</testsuite>
+	<testsuite name="_04_strtrmlTest" tests="4" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_04_strtrmlTest" />
+		<testcase name="case 2" status="run" time="" classname="_04_strtrmlTest" />
+		<testcase name="case 3" status="run" time="" classname="_04_strtrmlTest" />
+	</testsuite>
+	<testsuite name="_01_DecTest" tests="1" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_01_DecTest" />
+		<testcase name="case 2" status="run" time="" classname="_01_DecTest" />
+		<testcase name="case 3" status="run" time="" classname="_01_DecTest" />
+	</testsuite>
+	<testsuite name="_02_PositionTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_02_PositionTest" />
+		<testcase name="case 2" status="run" time="" classname="_02_PositionTest" />
+	</testsuite>
+	<testsuite name="_03_VaryingParameterTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_VaryingParameterTest" />
+	</testsuite>
+	<testsuite name="_01_add2Test" tests="3" failures="" disabled="" errors="3" time="">
+		<testcase name="case 1" status="run" time="" classname="_01_add2Test">
+			<failure message="case 0: return expected 2 but 0" type="error">&lt;!case 0: return expected 2 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="_01_add2Test">
+			<failure message="case 1: return expected 4 but 0" type="error">&lt;!case 1: return expected 4 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_01_add2Test">
+			<failure message="case 2: return expected 6 but 0" type="error">&lt;!case 2: return expected 6 but 0&gt;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite name="_02_pow2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_02_pow2Test" />
+	</testsuite>
+	<testsuite name="_04_strtrml2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_04_strtrml2Test" />
+	</testsuite>
+	<testsuite name="_03_strtrml2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_strtrml2Test" />
+	</testsuite>
+	<testsuite name="_01_add2Test" tests="3" failures="" disabled="" errors="3" time="">
+		<testcase name="case 1" status="run" time="" classname="_01_add2Test">
+			<failure message="case 0: return expected 2 but 0" type="error">&lt;!case 0: return expected 2 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="_01_add2Test">
+			<failure message="case 1: return expected 4 but 0" type="error">&lt;!case 1: return expected 4 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_01_add2Test">
+			<failure message="case 2: return expected 6 but 0" type="error">&lt;!case 2: return expected 6 but 0&gt;</failure>
+		</testcase>
+	</testsuite>
+	<testsuite name="_02_pow2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_02_pow2Test" />
+	</testsuite>
+	<testsuite name="_03_strtrml2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_strtrml2Test" />
+	</testsuite>
+	<testsuite name="_04_strtrml2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_04_strtrml2Test" />
+	</testsuite>
+	<testsuite name="_01_AnsiTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_01_AnsiTest" />
+		<testcase name="case 2" status="run" time="" classname="_01_AnsiTest" />
+	</testsuite>
+	<testsuite name="_02_UnicodeTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_02_UnicodeTest" />
+	</testsuite>
+	<testsuite name="_03_StructTest" tests="9" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_StructTest" />
+		<testcase name="case 2" status="run" time="" classname="_03_StructTest" />
+		<testcase name="case 3" status="run" time="" classname="_03_StructTest" />
+	</testsuite>
+	<testsuite name="_04_Struct2Test" tests="3" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_04_Struct2Test" />
+	</testsuite>
+	<testsuite name="_05_ArrayTest" tests="23" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_05_ArrayTest" />
+		<testcase name="case 2" status="run" time="" classname="_05_ArrayTest" />
+	</testsuite>
+	<testsuite name="_06_Array2Test" tests="6" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_06_Array2Test" />
+		<testcase name="case 2" status="run" time="" classname="_06_Array2Test" />
+	</testsuite>
+	<testsuite name="_07_PointerTest" tests="4" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_07_PointerTest" />
+		<testcase name="case 2" status="run" time="" classname="_07_PointerTest" />
+		<testcase name="case 3" status="run" time="" classname="_07_PointerTest" />
+		<testcase name="case 4" status="run" time="" classname="_07_PointerTest" />
+	</testsuite>
+	<testsuite name="_08_Pointer2Test" tests="3" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_08_Pointer2Test" />
+		<testcase name="case 2" status="run" time="" classname="_08_Pointer2Test" />
+		<testcase name="case 3" status="run" time="" classname="_08_Pointer2Test" />
+	</testsuite>
+	<testsuite name="_09_EmptyObjectTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_09_EmptyObjectTest" />
+		<testcase name="case 2" status="run" time="" classname="_09_EmptyObjectTest" />
+		<testcase name="case 3" status="run" time="" classname="_09_EmptyObjectTest" />
+	</testsuite>
+	<testsuite name="_10_TypeResetTest" tests="4" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_10_TypeResetTest" />
+	</testsuite>
+	<testsuite name="_11_CallScriptTest" tests="3" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_11_CallScriptTest" />
+		<testcase name="case 2" status="run" time="" classname="_11_CallScriptTest" />
+		<testcase name="case 3" status="run" time="" classname="_11_CallScriptTest" />
+		<testcase name="case 4" status="run" time="" classname="_11_CallScriptTest" />
+	</testsuite>
+	<testsuite name="_12_FunctionPtrTest" tests="1" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_12_FunctionPtrTest" />
+		<testcase name="case 2" status="run" time="" classname="_12_FunctionPtrTest" />
+		<testcase name="case 3" status="run" time="" classname="_12_FunctionPtrTest" />
+	</testsuite>
+	<testsuite name="_13_NumberPointerTest" tests="6" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_13_NumberPointerTest" />
+		<testcase name="case 2" status="run" time="" classname="_13_NumberPointerTest" />
+		<testcase name="case 3" status="run" time="" classname="_13_NumberPointerTest" />
+		<testcase name="case 4" status="run" time="" classname="_13_NumberPointerTest" />
+		<testcase name="case 5" status="run" time="" classname="_13_NumberPointerTest" />
+		<testcase name="case 6" status="run" time="" classname="_13_NumberPointerTest" />
+	</testsuite>
+	<testsuite name="_14_CListTestTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_14_CListTestTest" />
+		<testcase name="case 2" status="run" time="" classname="_14_CListTestTest" />
+		<testcase name="case 3" status="run" time="" classname="_14_CListTestTest" />
+	</testsuite>
+	<testsuite name="_15_CallbackDefineTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_15_CallbackDefineTest" />
+		<testcase name="case 2" status="run" time="" classname="_15_CallbackDefineTest" />
+		<testcase name="case 3" status="run" time="" classname="_15_CallbackDefineTest" />
+		<testcase name="case 4" status="run" time="" classname="_15_CallbackDefineTest" />
+	</testsuite>
+	<testsuite name="_04_Response_2_okTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_04_Response_2_okTest" />
+	</testsuite>
+	<testsuite name="_02_read_mail_one_text2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_02_read_mail_one_text2Test" />
+	</testsuite>
+	<testsuite name="_05_read_mails_from_file2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_05_read_mails_from_file2Test" />
+	</testsuite>
+	<testsuite name="_07_send_mail_from_file2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_07_send_mail_from_file2Test" />
+	</testsuite>
+	<testsuite name="_13_NumberPointer2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_13_NumberPointer2Test" />
+	</testsuite>
+	<testsuite name="_01_TriangleTest" tests="8" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_01_TriangleTest" />
+		<testcase name="case 2" status="run" time="" classname="_01_TriangleTest" />
+		<testcase name="case 3" status="run" time="" classname="_01_TriangleTest" />
+		<testcase name="case 4" status="run" time="" classname="_01_TriangleTest" />
+		<testcase name="case 5" status="run" time="" classname="_01_TriangleTest" />
+		<testcase name="case 6" status="run" time="" classname="_01_TriangleTest" />
+		<testcase name="case 7" status="run" time="" classname="_01_TriangleTest" />
+		<testcase name="case 8" status="run" time="" classname="_01_TriangleTest" />
+	</testsuite>
+	<testsuite name="_02_ResponseTest" tests="5" failures="" disabled="" errors="13" time="">
+		<testcase name="case 1" status="run" time="" classname="_02_ResponseTest">
+			<failure message="case 0: msg@A expected &quot;&quot; but &quot;,某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员`譌O&quot;" type="error">&lt;!case 0: msg@A expected "" but ",某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员`譌O"&gt;</failure>
+			<failure message="case 0: msg@B expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;,某公司招聘C++程序员04,某公司招聘C++程序员05&quot;" type="error">&lt;!case 0: msg@B expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but ",某公司招聘C++程序员04,某公司招聘C++程序员05"&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="_02_ResponseTest">
+			<failure message="case 1: msg@A expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;,某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员`譌O&quot;" type="error">&lt;!case 1: msg@A expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but ",某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员`譌O"&gt;</failure>
+			<failure message="case 1: msg@A expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;,某公司招聘C++程序员04,某公司招聘C++程序员05,某公司招聘C++程序员`譌O&quot;" type="error">&lt;!case 1: msg@A expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but ",某公司招聘C++程序员04,某公司招聘C++程序员05,某公司招聘C++程序员`譌O"&gt;</failure>
+			<failure message="case 1: msg@B expected &quot;某公司招聘C++程序员06,某公司招聘C++程序员07&quot; but &quot;,某公司招聘C++程序员07&quot;" type="error">&lt;!case 1: msg@B expected "某公司招聘C++程序员06,某公司招聘C++程序员07" but ",某公司招聘C++程序员07"&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_02_ResponseTest" />
+	</testsuite>
+	<testsuite name="_02_Response_okTest" tests="5" failures="" disabled="" errors="13" time="">
+		<testcase name="case 1" status="run" time="" classname="_02_Response_okTest">
+			<failure message="case 0: msg@A expected &quot;&quot; but &quot;某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员0`譌O&quot;" type="error">&lt;!case 0: msg@A expected "" but "某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员0`譌O"&gt;</failure>
+			<failure message="case 0: msg@B expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;某公司招聘C++程序员04,某公司招聘C++程序员05&quot;" type="error">&lt;!case 0: msg@B expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but "某公司招聘C++程序员04,某公司招聘C++程序员05"&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="_02_Response_okTest">
+			<failure message="case 1: msg@A expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员0`譌O&quot;" type="error">&lt;!case 1: msg@A expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but "某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员0`譌O"&gt;</failure>
+			<failure message="case 1: msg@A expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;某公司招聘C++程序员04,某公司招聘C++程序员05,某公司招聘C++程序员0`譌O&quot;" type="error">&lt;!case 1: msg@A expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but "某公司招聘C++程序员04,某公司招聘C++程序员05,某公司招聘C++程序员0`譌O"&gt;</failure>
+			<failure message="case 1: msg@B expected &quot;某公司招聘C++程序员06,某公司招聘C++程序员07&quot; but &quot;某公司招聘C++程序员07&quot;" type="error">&lt;!case 1: msg@B expected "某公司招聘C++程序员06,某公司招聘C++程序员07" but "某公司招聘C++程序员07"&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_02_Response_okTest" />
+	</testsuite>
+	<testsuite name="_03_Response_1Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_Response_1Test" />
+	</testsuite>
+	<testsuite name="_04_Response_2Test" tests="5" failures="" disabled="" errors="13" time="">
+		<testcase name="case 1" status="run" time="" classname="_04_Response_2Test">
+			<failure message="case 0: msg@A expected &quot;&quot; but &quot;,某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员&amp;A+O&quot;" type="error">&lt;!case 0: msg@A expected "" but ",某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员&amp;A+O"&gt;</failure>
+			<failure message="case 0: msg@B expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;,某公司招聘C++程序员04,某公司招聘C++程序员05&quot;" type="error">&lt;!case 0: msg@B expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but ",某公司招聘C++程序员04,某公司招聘C++程序员05"&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="_04_Response_2Test">
+			<failure message="case 1: msg@A expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;,某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员&amp;A+O&quot;" type="error">&lt;!case 1: msg@A expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but ",某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员&amp;A+O"&gt;</failure>
+			<failure message="case 1: msg@A expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;,某公司招聘C++程序员04,某公司招聘C++程序员05,某公司招聘C++程序员&amp;A+O&quot;" type="error">&lt;!case 1: msg@A expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but ",某公司招聘C++程序员04,某公司招聘C++程序员05,某公司招聘C++程序员&amp;A+O"&gt;</failure>
+			<failure message="case 1: msg@B expected &quot;某公司招聘C++程序员06,某公司招聘C++程序员07&quot; but &quot;,某公司招聘C++程序员07&quot;" type="error">&lt;!case 1: msg@B expected "某公司招聘C++程序员06,某公司招聘C++程序员07" but ",某公司招聘C++程序员07"&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_04_Response_2Test" />
+	</testsuite>
+	<testsuite name="_04_Response_2_okTest" tests="5" failures="" disabled="" errors="13" time="">
+		<testcase name="case 1" status="run" time="" classname="_04_Response_2_okTest">
+			<failure message="case 0: msg@A expected &quot;&quot; but &quot;某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员0&amp;A+O&quot;" type="error">&lt;!case 0: msg@A expected "" but "某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员0&amp;A+O"&gt;</failure>
+			<failure message="case 0: msg@B expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;某公司招聘C++程序员04,某公司招聘C++程序员05&quot;" type="error">&lt;!case 0: msg@B expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but "某公司招聘C++程序员04,某公司招聘C++程序员05"&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="_04_Response_2_okTest">
+			<failure message="case 1: msg@A expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员0&amp;A+O&quot;" type="error">&lt;!case 1: msg@A expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but "某公司招聘C++程序员01,某公司招聘C++程序员02,某公司招聘C++程序员0&amp;A+O"&gt;</failure>
+			<failure message="case 1: msg@A expected &quot;某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05&quot; but &quot;某公司招聘C++程序员04,某公司招聘C++程序员05,某公司招聘C++程序员0&amp;A+O&quot;" type="error">&lt;!case 1: msg@A expected "某公司招聘C++程序员03,某公司招聘C++程序员04,某公司招聘C++程序员05" but "某公司招聘C++程序员04,某公司招聘C++程序员05,某公司招聘C++程序员0&amp;A+O"&gt;</failure>
+			<failure message="case 1: msg@B expected &quot;某公司招聘C++程序员06,某公司招聘C++程序员07&quot; but &quot;某公司招聘C++程序员07&quot;" type="error">&lt;!case 1: msg@B expected "某公司招聘C++程序员06,某公司招聘C++程序员07" but "某公司招聘C++程序员07"&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_04_Response_2_okTest" />
+	</testsuite>
+	<testsuite name="getCurrentTemperatureTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="getCurrentTemperatureTest" />
+	</testsuite>
+	<testsuite name="GetTemperatureTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="GetTemperatureTest" />
+	</testsuite>
+	<testsuite name="_01_WorkTimeTest" tests="9" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_01_WorkTimeTest" />
+		<testcase name="case 2" status="run" time="" classname="_01_WorkTimeTest" />
+		<testcase name="case 3" status="run" time="" classname="_01_WorkTimeTest" />
+		<testcase name="case 4" status="run" time="" classname="_01_WorkTimeTest" />
+		<testcase name="case 5" status="run" time="" classname="_01_WorkTimeTest" />
+	</testsuite>
+	<testsuite name="_02_PowerEffectTest" tests="7" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_02_PowerEffectTest" />
+		<testcase name="case 2" status="run" time="" classname="_02_PowerEffectTest" />
+		<testcase name="case 3" status="run" time="" classname="_02_PowerEffectTest" />
+		<testcase name="case 4" status="run" time="" classname="_02_PowerEffectTest" />
+		<testcase name="case 5" status="run" time="" classname="_02_PowerEffectTest" />
+		<testcase name="case 6" status="run" time="" classname="_02_PowerEffectTest" />
+		<testcase name="case 7" status="run" time="" classname="_02_PowerEffectTest" />
+	</testsuite>
+	<testsuite name="_03_UpdateUserNameOrPasswordTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_UpdateUserNameOrPasswordTest" />
+		<testcase name="case 2" status="run" time="" classname="_03_UpdateUserNameOrPasswordTest" />
+		<testcase name="case 3" status="run" time="" classname="_03_UpdateUserNameOrPasswordTest" />
+		<testcase name="case 4" status="run" time="" classname="_03_UpdateUserNameOrPasswordTest" />
+	</testsuite>
+	<testsuite name="_04_LocalInput1Test" tests="5" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_04_LocalInput1Test" />
+		<testcase name="case 2" status="run" time="" classname="_04_LocalInput1Test" />
+		<testcase name="case 3" status="run" time="" classname="_04_LocalInput1Test" />
+		<testcase name="case 4" status="run" time="" classname="_04_LocalInput1Test" />
+		<testcase name="case 5" status="run" time="" classname="_04_LocalInput1Test" />
+	</testsuite>
+	<testsuite name="_05_LocalInput2Test" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_05_LocalInput2Test" />
+		<testcase name="case 2" status="run" time="" classname="_05_LocalInput2Test" />
+	</testsuite>
+	<testsuite name="_06_InterruptTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_06_InterruptTest" />
+		<testcase name="case 2" status="run" time="" classname="_06_InterruptTest" />
+	</testsuite>
+	<testsuite name="_07_LoopEverTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_07_LoopEverTest" />
+		<testcase name="case 2" status="run" time="" classname="_07_LoopEverTest" />
+	</testsuite>
+	<testsuite name="_08_call_sub_testTest" tests="2" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_08_call_sub_testTest" />
+		<testcase name="case 2" status="run" time="" classname="_08_call_sub_testTest" />
+	</testsuite>
+	<testsuite name="_09_mul_call_testTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_09_mul_call_testTest" />
+		<testcase name="case 2" status="run" time="" classname="_09_mul_call_testTest" />
+		<testcase name="case 3" status="run" time="" classname="_09_mul_call_testTest" />
+		<testcase name="case 4" status="run" time="" classname="_09_mul_call_testTest" />
+		<testcase name="case 5" status="run" time="" classname="_09_mul_call_testTest" />
+		<testcase name="case 6" status="run" time="" classname="_09_mul_call_testTest" />
+		<testcase name="case 7" status="run" time="" classname="_09_mul_call_testTest" />
+		<testcase name="case 8" status="run" time="" classname="_09_mul_call_testTest" />
+	</testsuite>
+	<testsuite name="_01_addTest" tests="9" failures="" disabled="" errors="7" time="">
+		<testcase name="case 1" status="run" time="" classname="_01_addTest">
+			<failure message="case 0: return expected 2 but 0" type="error">&lt;!case 0: return expected 2 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 2" status="run" time="" classname="_01_addTest">
+			<failure message="case 1: return expected 20 but 0" type="error">&lt;!case 1: return expected 20 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_01_addTest">
+			<failure message="case 2: return expected 200 but 0" type="error">&lt;!case 2: return expected 200 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 4" status="run" time="" classname="_01_addTest">
+			<failure message="case 3: return &amp; 0x10000" type="error">&lt;!case 3: return &amp; 0x10000&gt;</failure>
+		</testcase>
+		<testcase name="case 5" status="run" time="" classname="_01_addTest">
+			<failure message="case 4: return &gt; 100" type="error">&lt;!case 4: return &gt; 100&gt;</failure>
+		</testcase>
+		<testcase name="case 6" status="run" time="" classname="_01_addTest">
+			<failure message="case 5: return &lt; 99" type="error">&lt;!case 5: return &lt; 99&gt;</failure>
+		</testcase>
+		<testcase name="case 7" status="run" time="" classname="_01_addTest">
+			<failure message="case 6: return == 101" type="error">&lt;!case 6: return == 101&gt;</failure>
+		</testcase>
+		<testcase name="case 8" status="run" time="" classname="_01_addTest" />
+		<testcase name="case 9" status="run" time="" classname="_01_addTest" />
+	</testsuite>
+	<testsuite name="_02_powTest" tests="6" failures="" disabled="" errors="2" time="">
+		<testcase name="case 1" status="run" time="" classname="_02_powTest" />
+		<testcase name="case 2" status="run" time="" classname="_02_powTest" />
+		<testcase name="case 3" status="run" time="" classname="_02_powTest">
+			<failure message="case 2: return expected 4 but 0" type="error">&lt;!case 2: return expected 4 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 4" status="run" time="" classname="_02_powTest">
+			<failure message="case 3: return expected 3145 but 0" type="error">&lt;!case 3: return expected 3145 but 0&gt;</failure>
+		</testcase>
+		<testcase name="case 5" status="run" time="" classname="_02_powTest" />
+		<testcase name="case 6" status="run" time="" classname="_02_powTest" />
+	</testsuite>
+	<testsuite name="_03_strtrmlTest" tests="8" failures="" disabled="" errors="4" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_strtrmlTest" />
+		<testcase name="case 2" status="run" time="" classname="_03_strtrmlTest">
+			<failure message="case 1: return expected &quot;abcde&quot; but &quot;    abcde&quot;" type="error">&lt;!case 1: return expected "abcde" but "    abcde"&gt;</failure>
+			<failure message="case 1: str expected &quot;abcde&quot; but &quot;    abcde&quot;" type="error">&lt;!case 1: str expected "abcde" but "    abcde"&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_03_strtrmlTest" />
+		<testcase name="case 4" status="run" time="" classname="_03_strtrmlTest" />
+		<testcase name="case 5" status="run" time="" classname="_03_strtrmlTest" />
+	</testsuite>
+	<testsuite name="_03_strtrml_1Test" tests="8" failures="" disabled="" errors="6" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_strtrml_1Test" />
+		<testcase name="case 2" status="run" time="" classname="_03_strtrml_1Test">
+			<failure message="case 1: return expected &quot;abcde&quot; but &quot;bcde&quot;" type="error">&lt;!case 1: return expected "abcde" but "bcde"&gt;</failure>
+			<failure message="case 1: str expected &quot;abcde&quot; but &quot;    abcde&quot;" type="error">&lt;!case 1: str expected "abcde" but "    abcde"&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_03_strtrml_1Test">
+			<failure message="case 2: return expected &quot;abcde&quot; but &quot;bcde&quot;" type="error">&lt;!case 2: return expected "abcde" but "bcde"&gt;</failure>
+		</testcase>
+		<testcase name="case 4" status="run" time="" classname="_03_strtrml_1Test">
+			<failure message="case 3: return expected &quot;abcde   &quot; but &quot;bcde   &quot;" type="error">&lt;!case 3: return expected "abcde   " but "bcde   "&gt;</failure>
+		</testcase>
+		<testcase name="case 5" status="run" time="" classname="_03_strtrml_1Test" />
+	</testsuite>
+	<testsuite name="_03_strtrml_2Test" tests="8" failures="" disabled="" errors="6" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_strtrml_2Test" />
+		<testcase name="case 2" status="run" time="" classname="_03_strtrml_2Test">
+			<failure message="case 1: return expected &quot;abcde&quot; but &quot;&quot;" type="error">&lt;!case 1: return expected "abcde" but ""&gt;</failure>
+			<failure message="case 1: str expected &quot;abcde&quot; but &quot;    a&quot;" type="error">&lt;!case 1: str expected "abcde" but "    a"&gt;</failure>
+		</testcase>
+		<testcase name="case 3" status="run" time="" classname="_03_strtrml_2Test">
+			<failure message="case 2: return expected &quot;abcde&quot; but &quot;&quot;" type="error">&lt;!case 2: return expected "abcde" but ""&gt;</failure>
+		</testcase>
+		<testcase name="case 4" status="run" time="" classname="_03_strtrml_2Test">
+			<failure message="case 3: return expected &quot;abcde   &quot; but &quot;&quot;" type="error">&lt;!case 3: return expected "abcde   " but ""&gt;</failure>
+		</testcase>
+		<testcase name="case 5" status="run" time="" classname="_03_strtrml_2Test" />
+	</testsuite>
+	<testsuite name="_03_strtrml_okTest" tests="8" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_03_strtrml_okTest" />
+		<testcase name="case 2" status="run" time="" classname="_03_strtrml_okTest" />
+		<testcase name="case 3" status="run" time="" classname="_03_strtrml_okTest" />
+		<testcase name="case 4" status="run" time="" classname="_03_strtrml_okTest" />
+		<testcase name="case 5" status="run" time="" classname="_03_strtrml_okTest" />
+	</testsuite>
+	<testsuite name="_04_strtrmlTest" tests="4" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_04_strtrmlTest" />
+		<testcase name="case 2" status="run" time="" classname="_04_strtrmlTest" />
+		<testcase name="case 3" status="run" time="" classname="_04_strtrmlTest" />
+	</testsuite>
+	<testsuite name="_09_mul_call_testTest" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_09_mul_call_testTest" />
+	</testsuite>
+	<testsuite name="_04_Mcdc2Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_04_Mcdc2Test" />
+	</testsuite>
+	<testsuite name="_01_add3Test" tests="0" failures="" disabled="" errors="0" time="">
+		<testcase name="case 1" status="run" time="" classname="_01_add3Test" />
+	</testsuite>
+</testsuites>
